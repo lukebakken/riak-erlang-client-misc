@@ -1,0 +1,3 @@
+[submodule "riak-erlang-client"]
+	path = riak-erlang-client
+	url = git://github.com/basho/riak-erlang-client.git
