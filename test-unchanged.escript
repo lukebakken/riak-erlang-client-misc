@@ -1,6 +1,6 @@
 #!/usr/bin/env escript
 main(_Args) ->
-    ok = code:add_pathsa(["./ebin", "./deps/protobuffs/ebin", "./deps/riak_pb/ebin"]),
+    ok = code:add_pathsa(["./ebin"]),
 
     % NB: bucket type must have allow_mult = true
     Bucket = {<<"yokozuna">>,<<"test-bucket">>},
